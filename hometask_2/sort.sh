@@ -1,9 +1,9 @@
 #!/bin/bash
 
 
-#if you input http adress, the script will put it from the server and sort in asc order
+#if you input http adress, the script will pull it from the server and sort in ascending order
 
-#or you can only pass a file as agrument
+#or you can only pass a file as agrument and it also work
 
 
 if [[ $1 =~ ^https?:// ]]; then
